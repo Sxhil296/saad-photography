@@ -14,7 +14,7 @@ const Home = () => {
       transition={transition1}
       className="section"
     >
-      <div className="container mx-auto h-full relative">
+      <div className="container mx-auto h-full relative min-h-[100vh]">
         {/* text and img wrapper */}
         <div className="flex flex-col justify-center">
           {/* text */}
