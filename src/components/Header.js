@@ -1,7 +1,7 @@
 import React from "react";
 import Socials from "./Socials";
-// import logo from "../img/header/logo.svg";
-import logo from "../img/header/s-logo.png";
+import logo from "../img/header/logo.svg";
+// import logo from "../img/header/s-logo.png";
 
 import MobileNav from "./MobileNav";
 
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center">
+      <header className="fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center bg-white lg:bg-transparent">
         <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
           {/* logo */}
           <Link to={"/"} className="max-w-[200px]">

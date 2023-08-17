@@ -78,7 +78,7 @@ const Portfolio = () => {
             
           </div> */}
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 overflow-hidden">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2 ">
             <div className="bg-accent overflow-hidden max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[260px]">
               <img
                 className="h-auto object-cover max-w-full"
